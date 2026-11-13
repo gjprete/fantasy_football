@@ -1,6 +1,19 @@
-node_modules
-dist
-.DS_Store
+
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Local environment variables and secrets
 .env
 .env.*
 !.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Cloudflare local development
+.wrangler/
+
